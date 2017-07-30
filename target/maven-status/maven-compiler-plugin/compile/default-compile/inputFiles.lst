@@ -1,2 +1,5 @@
-/home/nick/IntelliJIDEAProjects/BankRestService/src/main/java/org/arpit/java2blog/controller/RestController.java
-/home/nick/IntelliJIDEAProjects/BankRestService/src/main/java/org/arpit/java2blog/controller/Response.java
+/home/nick/IntelliJIDEAProjects/BankRestService/src/main/java/org/arpit/java2blog/controller/controller/RestController.java
+/home/nick/IntelliJIDEAProjects/BankRestService/src/main/java/org/arpit/java2blog/controller/service/UserService.java
+/home/nick/IntelliJIDEAProjects/BankRestService/src/main/java/org/arpit/java2blog/controller/util/Response.java
+/home/nick/IntelliJIDEAProjects/BankRestService/src/main/java/org/arpit/java2blog/controller/model/User.java
+/home/nick/IntelliJIDEAProjects/BankRestService/src/main/java/org/arpit/java2blog/controller/dao/UserDao.java

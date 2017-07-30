@@ -1,2 +1,5 @@
-org/arpit/java2blog/controller/RestController.class
-org/arpit/java2blog/controller/Response.class
+org/arpit/java2blog/controller/controller/RestController.class
+org/arpit/java2blog/controller/util/Response.class
+org/arpit/java2blog/controller/dao/UserDao.class
+org/arpit/java2blog/controller/model/User.class
+org/arpit/java2blog/controller/service/UserService.class
