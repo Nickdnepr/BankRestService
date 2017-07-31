@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.jws.soap.SOAPBinding;
+import java.util.List;
 
 /**
  * Created by nick on 30.07.17.
@@ -19,6 +20,10 @@ public class UserService {
 
     public void addUser(User user){
         userDao.addUser(user);
+    }
+
+    public List<User> getAllUsers(){
+        return userDao.getAllUsers();
     }
 
 }

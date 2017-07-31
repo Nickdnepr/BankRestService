@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import java.util.List;
+
 /**
  * Created by nick on 26.07.17.
  */
@@ -35,6 +37,12 @@ public class RestController {
         userService.addUser(new User(name, password));
 
         return new Response("ok", "added");
+    }
+
+    @RequestMapping(value = "/getAllUsers", method = RequestMethod.GET)
+    public List<User> getAllUsers(){
+        return userService.getAllUsers();
+
     }
 
 
